@@ -9,3 +9,5 @@ def test2():
     assert list_command([2, 6, 5],["remove", 6])==[2, 5]
 def test2():
     assert list_command([2,5], ["pop"])==[2]
+def test2():
+    assert list_command([2,5], ["print"])==[2,5]
