@@ -1,5 +1,4 @@
-def list_command(list1):
-    for _ in range(N):
+def list_command(list1,command):
         if command[0]=="insert":
             list1.insert(int(command[1]), int(command[2]))
         elif command[0]=="print":
@@ -14,4 +13,4 @@ def list_command(list1):
             list1.pop()
         elif command[0]=="reverse":
             list1.reverse()
-    return list1
+        return list1
